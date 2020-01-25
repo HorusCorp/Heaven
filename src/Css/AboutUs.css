@@ -1,0 +1,90 @@
+.aboutus-container{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics-and-text-mix{
+    height: 400px;
+    margin:0 15%;
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.detail-desc-about-us{
+    background-color: white;
+    height: 70%;
+    width: 80%;
+    display: flex;
+    font-size: 14px;
+    text-align: left;
+}
+
+.detail-desc-about-us_1{
+    background-color: white;
+    height: 70%;
+    width: 80%;
+    display: flex;
+    font-size: 14px;
+    text-align: left;
+}
+
+.desc-text{
+    padding: 10px;
+}
+
+.desc-text_1 h3{
+    font-size: 29px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.desc-img{
+    height: 100%;
+    min-width: 40%;
+    background-size: cover;
+    background-image: url('../Img/c56c7cf890c64cd90c5646b10eb8e99c.jpg');
+    z-index:1;
+}
+
+.desc-img_1{
+    margin-left:-175px;
+    margin-bottom: -155px;
+    height: 250px;
+    min-width: 50%;
+    background-size: cover;
+    background-image: url('../Img/LovelyRoom.jpg');
+    z-index:0;
+}
+
+.btn-read-more{
+    padding: 7px 15px;
+    background-color: turquoise;
+    border: 1px solid turquoise;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:30px;
+    margin-left: 245px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+}
+
+.btn-read-more:hover{
+    border: 1px solid turquoise;
+    color:  turquoise;
+    background-color: white;
+}

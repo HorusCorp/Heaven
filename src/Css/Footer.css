@@ -1,0 +1,37 @@
+.footer-container{
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 100%;
+}
+
+.footer-container ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 80%;
+    padding-left: 0px;
+}
+
+.footer-container ul li{
+    color:white;
+    font-weight: bold;
+    padding: 0 25px;
+    font-family: 'Cinzel', serif;
+    cursor: pointer;
+}
+
+.social-footer{
+    width: 25%;
+    height: 50%;
+}
+.logo-footer{
+    background-image: url('../Img/logo-footer.png');
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 80px;
+}
